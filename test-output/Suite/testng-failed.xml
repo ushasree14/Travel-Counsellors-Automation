@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="Utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Verify user able to create Travel and medical policy with Group - Single Trip(failed)">
+    <classes>
+      <class name="TestCases.TC_ID3941">
+        <methods>
+          <include name="Scenario3941" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TC_ID3941 -->
+    </classes>
+  </test> <!-- Verify user able to create Travel and medical policy with Group - Single Trip(failed) -->
+  <test thread-count="5" name="Verify user able to create Travel and medical policy with Group - Annual Trip(failed)">
+    <classes>
+      <class name="TestCases.TC_ID3945">
+        <methods>
+          <include name="Scenario3945" invocation-numbers="1"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TC_ID3945 -->
+    </classes>
+  </test> <!-- Verify user able to create Travel and medical policy with Group - Annual Trip(failed) -->
+  <test thread-count="5" name="A user can find an address from a postcode(failed)">
+    <classes>
+      <class name="TestCases.TC_ID1812">
+        <methods>
+          <include name="Scenario1812" invocation-numbers="19"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TC_ID1812 -->
+    </classes>
+  </test> <!-- A user can find an address from a postcode(failed) -->
+  <test thread-count="5" name="A user sees a thankyou page confirming their purchase(failed)">
+    <classes>
+      <class name="TestCases.TC_ID1809">
+        <methods>
+          <include name="Scenario1809" invocation-numbers="17"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TC_ID1809 -->
+    </classes>
+  </test> <!-- A user sees a thankyou page confirming their purchase(failed) -->
+  <test thread-count="5" name="A user can enter their credit card information(failed)">
+    <classes>
+      <class name="TestCases.TC_ID1810">
+        <methods>
+          <include name="setup"/>
+          <include name="Scenario1810" invocation-numbers="18"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TC_ID1810 -->
+    </classes>
+  </test> <!-- A user can enter their credit card information(failed) -->
+  <test thread-count="5" name="Verify user able to create Travel policy with Individual, ST(failed)">
+    <classes>
+      <class name="TestCases.TC_ID3982">
+        <methods>
+          <include name="Scenario3982" invocation-numbers="32"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TC_ID3982 -->
+    </classes>
+  </test> <!-- Verify user able to create Travel policy with Individual, ST(failed) -->
+  <test thread-count="5" name=" Validation: ST - Traveler DOB for Individual - The maximum age for this trip is 100(failed)">
+    <classes>
+      <class name="TestCases.TC_ID6113">
+        <methods>
+          <include name="Scenario6113" invocation-numbers="55"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TC_ID6113 -->
+    </classes>
+  </test> <!--  Validation: ST - Traveler DOB for Individual - The maximum age for this trip is 100(failed) -->
+  <test thread-count="5" name="Check what happens if we click Yes to 2nd question in Pre existing medical condition page(failed)">
+    <classes>
+      <class name="TestCases.TC_ID6120">
+        <methods>
+          <include name="Scenario6120" invocation-numbers="61"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TC_ID6120 -->
+    </classes>
+  </test> <!-- Check what happens if we click Yes to 2nd question in Pre existing medical condition page(failed) -->
+  <test thread-count="5" name="Verify user able to create T and M policy with Individual, ST(failed)">
+    <classes>
+      <class name="TestCases.TC_ID3988">
+        <methods>
+          <include name="Scenario3988" invocation-numbers="40"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TC_ID3988 -->
+    </classes>
+  </test> <!-- Verify user able to create T and M policy with Individual, ST(failed) -->
+  <test thread-count="5" name="ID6093 - Verify When user entered invalid End date(failed)">
+    <classes>
+      <class name="TestCases.TC_ID6093">
+        <methods>
+          <include name="Scenario6093" invocation-numbers="48"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TC_ID6093 -->
+    </classes>
+  </test> <!-- ID6093 - Verify When user entered invalid End date(failed) -->
+  <test thread-count="5" name="Verify user able to create T and M policy with Couple, ST(failed)">
+    <classes>
+      <class name="TestCases.TC_ID3990">
+        <methods>
+          <include name="setup"/>
+          <include name="Scenario3990" invocation-numbers="51"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TC_ID3990 -->
+    </classes>
+  </test> <!-- Verify user able to create T and M policy with Couple, ST(failed) -->
+  <test thread-count="5" name="Verify user able to create T and M policy with SPF, ST(failed)">
+    <classes>
+      <class name="TestCases.TC_ID3992">
+        <methods>
+          <include name="Scenario3992" invocation-numbers="53"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TC_ID3992 -->
+    </classes>
+  </test> <!-- Verify user able to create T and M policy with SPF, ST(failed) -->
+  <test thread-count="5" name="Check what happens if we don&#039;t add any text in traveler page and click on continue(failed)">
+    <classes>
+      <class name="TestCases.TC_ID6123">
+        <methods>
+          <include name="Scenario6123" invocation-numbers="64"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TC_ID6123 -->
+    </classes>
+  </test> <!-- Check what happens if we don't add any text in traveler page and click on continue(failed) -->
+  <test thread-count="5" name="Verify user able to create T and M policy with Family, ST(failed)">
+    <classes>
+      <class name="TestCases.TC_ID6103">
+        <methods>
+          <include name="Scenario6103" invocation-numbers="72"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TC_ID6103 -->
+    </classes>
+  </test> <!-- Verify user able to create T and M policy with Family, ST(failed) -->
+  <test thread-count="5" name="Verify user able to create T and M policy with Family, AMT(failed)">
+    <classes>
+      <class name="TestCases.TC_ID6104">
+        <methods>
+          <include name="Scenario6104" invocation-numbers="73"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TC_ID6104 -->
+    </classes>
+  </test> <!-- Verify user able to create T and M policy with Family, AMT(failed) -->
+  <test thread-count="5" name="Verify user able to create T and M policy with SPF, AMT - U/W declined(failed)">
+    <classes>
+      <class name="TestCases.TC_ID6106">
+        <methods>
+          <include name="Scenario6106" invocation-numbers="75"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TC_ID6106 -->
+    </classes>
+  </test> <!-- Verify user able to create T and M policy with SPF, AMT - U/W declined(failed) -->
+</suite> <!-- Failed suite [Suite] -->
