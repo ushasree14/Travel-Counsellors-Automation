@@ -7,18 +7,121 @@
 	<listeners>
 		<listener class-name="Utilities.Reporting" />
 	</listeners>
+	
+<!-- 	Travel only Journey -->
+	
+	<test thread-count="2" name="A user can add policy holder details, ST:Accept Cookies, Europe,Family(3),Travel Only">
+    <classes>
+      <class name="TestCases.TC_ID1803"/>
+    </classes>
+  </test> 
   
-    <test thread-count="1" name="Verify user able to create Travel and medical policy with Group - Single Trip">
+   <test thread-count="10" name=" Verify user able to create Travel policy with Group, ST: Accept Cookies, Europe, Group(10), Travel Only, Premier, Wedding Cover">
+    <classes>
+      <class name="TestCases.TC_ID3971"/>
+    </classes>
+  </test> 
+  
+  <test thread-count="16" name=" Verify user able to create Travel policy with Group, AMT:Accept Cookies,WWInc., Group(8),Travel Only, Ultimate, Business Cover">
+    <classes>
+      <class name="TestCases.TC_ID3972"/>
+    </classes>
+  </test>    
+   
+  
+    <test thread-count="17" name="A user receives an email confirming their purchase, ST: Accept Cookies, Europe, Couple,Premier,Flight_Cancellation Cover">
+    <classes>
+      <class name="TestCases.TC_ID1782"/>
+    </classes>
+  </test> 
+  
+     <test thread-count="21" name="A user sees a thankyou page confirming their purchase">
+    <classes>
+      <class name="TestCases.TC_ID1809"/>
+    </classes>
+  </test> 
+  
+  <test thread-count="22" name="A user can enter their credit card information">
+    <classes>
+      <class name="TestCases.TC_ID1810"/>
+    </classes>
+  </test> 
+  
+   <test thread-count="30" name="An administrator should be able to configure 3DS2 Secure Authentication V2 Configuration">
+    <classes>
+      <class name="TestCases.TC_ID1858"/>
+    </classes>
+  </test>  
+  
+    <test thread-count="33" name="Verify user able to create Travel policy with Individual, ST">
+    <classes>
+      <class name="TestCases.TC_ID3982"/>
+    </classes>
+  </test> 
+  
+   <test thread-count="34" name="Verify user able to create Travel policy with Individual, AMT">
+    <classes>
+      <class name="TestCases.TC_ID3983"/>
+    </classes>
+  </test> 
+  
+     <test thread-count="41" name="Verify user able to create Travel policy with Couple, ST">
+    <classes>
+      <class name="TestCases.TC_ID3984"/>
+    </classes>
+  </test>  
+  
+     <test thread-count="42" name="Verify user able to create Travel policy with Couple, AMT">
+    <classes>
+      <class name="TestCases.TC_ID3985"/>
+    </classes>
+  </test>  
+  
+     <test thread-count="46" name="Verify user able to create Travel policy with Family, ST">
+    <classes>
+      <class name="TestCases.TC_ID3904"/>
+    </classes>
+  </test> 
+  
+   <test thread-count="47" name="Verify user able to create Travel policy with Family,AMT">
+    <classes>
+      <class name="TestCases.TC_ID3943"/>
+    </classes>
+  </test>   
+  
+     <test thread-count="52" name="Verify user able to create Travel policy with SPF, ST">
+    <classes>
+      <class name="TestCases.TC_ID3986"/>
+    </classes>
+  </test> 
+  
+   <test thread-count="53" name="Verify user able to create Travel policy with SPF, AMT">
+    <classes>
+      <class name="TestCases.TC_ID3987"/>
+    </classes>
+  </test>   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   <!--   <test thread-count="1" name="Verify user able to create Travel and medical policy with Group - Single Trip">
     <classes>
       <class name="TestCases.TC_ID3941"/>
     </classes>
   </test>   
   
-  <test thread-count="2" name="A user can add policy holder details, ST:Accept Cookies, Europe,Family(3),Travel Only">
-    <classes>
-      <class name="TestCases.TC_ID1803"/>
-    </classes>
-  </test> 
+  
   
   <test thread-count="3" name="As a customer I want to use Live Chat to communicate with sale agents: Check Live Chat working or not">
     <classes>
@@ -62,13 +165,9 @@
     </classes>
   </test> 
   
- <test thread-count="10" name=" Verify user able to create Travel policy with Group, ST: Accept Cookies, Europe, Group(10), Travel Only, Premier, Wedding Cover">
-    <classes>
-      <class name="TestCases.TC_ID3971"/>
-    </classes>
-  </test> 
+
   
-     <test thread-count="11" name="As a customer I want to see the GDPR statement">
+    <test thread-count="11" name="As a customer I want to see the GDPR statement">
     <classes>
       <class name="TestCases.TC_ID1731"/>
     </classes>
@@ -100,18 +199,7 @@
     </classes>
   </test>
   
-  <test thread-count="16" name=" Verify user able to create Travel policy with Group, AMT:Accept Cookies,WWInc., Group(8),Travel Only, Ultimate, Business Cover">
-    <classes>
-      <class name="TestCases.TC_ID3972"/>
-    </classes>
-  </test>    
    
-  
-    <test thread-count="17" name="A user receives an email confirming their purchase, ST: Accept Cookies, Europe, Couple,Premier,Flight_Cancellation Cover">
-    <classes>
-      <class name="TestCases.TC_ID1782"/>
-    </classes>
-  </test>  
   
   <test thread-count="18" name="A user can find an address from a postcode">
     <classes>
@@ -132,17 +220,7 @@
     </classes>
   </test> 
   
-    <test thread-count="21" name="A user sees a thankyou page confirming their purchase">
-    <classes>
-      <class name="TestCases.TC_ID1809"/>
-    </classes>
-  </test> 
-  
-  <test thread-count="22" name="A user can enter their credit card information">
-    <classes>
-      <class name="TestCases.TC_ID1810"/>
-    </classes>
-  </test> 
+ 
   
 
    
@@ -189,11 +267,7 @@
     </classes>
   </test>
   
-   <test thread-count="30" name="An administrator should be able to configure 3DS2 Secure Authentication V2 Configuration">
-    <classes>
-      <class name="TestCases.TC_ID1858"/>
-    </classes>
-  </test>  
+  
   
    <test thread-count="31" name="As a customer I want to be able to view the Terms of Business document on the Travel Counsellors websites">
     <classes>
@@ -207,17 +281,7 @@
     </classes>
   </test>  
   
-     <test thread-count="33" name="Verify user able to create Travel policy with Individual, ST">
-    <classes>
-      <class name="TestCases.TC_ID3982"/>
-    </classes>
-  </test> 
-  
-   <test thread-count="34" name="Verify user able to create Travel policy with Individual, AMT">
-    <classes>
-      <class name="TestCases.TC_ID3983"/>
-    </classes>
-  </test> 
+   
   
      <test thread-count="35" name="What happens if we don't select - Which type of Cover do you need?">
     <classes>
@@ -255,17 +319,7 @@
     </classes>
   </test>
   
-      <test thread-count="41" name="Verify user able to create Travel policy with Couple, ST">
-    <classes>
-      <class name="TestCases.TC_ID3984"/>
-    </classes>
-  </test>  
-  
-     <test thread-count="42" name="Verify user able to create Travel policy with Couple, AMT">
-    <classes>
-      <class name="TestCases.TC_ID3985"/>
-    </classes>
-  </test>  
+   
   
   <test thread-count="43"
 	name=" Validation: ST - Traveler DOB for Individual - The maximum age for this trip is 100">
@@ -288,17 +342,7 @@
 	</classes>
 </test>
   
-     <test thread-count="46" name="Verify user able to create Travel policy with Family, ST">
-    <classes>
-      <class name="TestCases.TC_ID3904"/>
-    </classes>
-  </test> 
   
-   <test thread-count="47" name="Verify user able to create Travel policy with Family,AMT">
-    <classes>
-      <class name="TestCases.TC_ID3943"/>
-    </classes>
-  </test>   
   
     <test thread-count="48"
 	name=" Validation: Family - There cannot be more than 2 adults in a family">
@@ -327,17 +371,7 @@
 	</classes>
 </test> 
   
-    <test thread-count="52" name="Verify user able to create Travel policy with SPF, ST">
-    <classes>
-      <class name="TestCases.TC_ID3986"/>
-    </classes>
-  </test> 
-  
-   <test thread-count="53" name="Verify user able to create Travel policy with SPF, AMT">
-    <classes>
-      <class name="TestCases.TC_ID3987"/>
-    </classes>
-  </test>   
+ 
   
      <test thread-count="54" name="Verify user able to create T and M policy with Individual, ST">
     <classes>
@@ -509,7 +543,7 @@
 	<classes>
 		<class name="TestCases.TC_ID6106" />
 	</classes>
-</test>
+</test> -->
   
  
 
