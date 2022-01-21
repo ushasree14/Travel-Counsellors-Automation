@@ -238,11 +238,11 @@
     </classes>
   </test>  
   
-    <test thread-count="32" name="A user can see clear HTTPS headers on all ROCK pages through the quote journey">
+  <!--   <test thread-count="32" name="A user can see clear HTTPS headers on all ROCK pages through the quote journey">
     <classes>
       <class name="TestCases.TC_ID1813"/>
     </classes>
-  </test>  
+  </test>   -->
   
   
   
