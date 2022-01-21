@@ -103,7 +103,7 @@
   
   
   
-  
+<!--   Content checking -->
   
   
   
@@ -168,7 +168,7 @@
     </classes>
   </test>  
   
-  
+  <!-- 
     <test thread-count="15" name="A user can see the Medical Screening system (Verisk)">
     <classes>
       <class name="TestCases.TC_ID1806"/>
@@ -231,14 +231,13 @@
   </test>
   
   
-  
    <test thread-count="31" name="As a customer I want to be able to view the Terms of Business document on the Travel Counsellors websites">
     <classes>
       <class name="TestCases.TC_ID1859"/>
     </classes>
   </test>  
   
-  <!--   <test thread-count="32" name="A user can see clear HTTPS headers on all ROCK pages through the quote journey">
+  <test thread-count="32" name="A user can see clear HTTPS headers on all ROCK pages through the quote journey">
     <classes>
       <class name="TestCases.TC_ID1813"/>
     </classes>
