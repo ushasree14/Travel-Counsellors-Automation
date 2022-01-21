@@ -10,7 +10,7 @@
 	
 <!-- 	Travel only Journey -->
 	
-	<test thread-count="2" name="A user can add policy holder details, ST:Accept Cookies, Europe,Family(3),Travel Only">
+	<!-- <test thread-count="2" name="A user can add policy holder details, ST:Accept Cookies, Europe,Family(3),Travel Only">
     <classes>
       <class name="TestCases.TC_ID1803"/>
     </classes>
@@ -99,7 +99,7 @@
     <classes>
       <class name="TestCases.TC_ID3987"/>
     </classes>
-  </test>   
+  </test>    -->
   
   
   
@@ -107,29 +107,13 @@
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-   <!--   <test thread-count="1" name="Verify user able to create Travel and medical policy with Group - Single Trip">
-    <classes>
-      <class name="TestCases.TC_ID3941"/>
-    </classes>
-  </test>   
-  
-  
-  
-  <test thread-count="3" name="As a customer I want to use Live Chat to communicate with sale agents: Check Live Chat working or not">
+   <test thread-count="3" name="As a customer I want to use Live Chat to communicate with sale agents: Check Live Chat working or not">
     <classes>
       <class name="TestCases.TC_ID1693"/>
     </classes>
-  </test>   
+  </test> 
   
-   <test thread-count="4" name="As a customer I would like to see the Travel Counsellors FAQs">
+    <test thread-count="4" name="As a customer I would like to see the Travel Counsellors FAQs">
     <classes>
       <class name="TestCases.TC_ID1709"/>
     </classes>
@@ -158,14 +142,6 @@
       <class name="TestCases.TC_ID1730"/>
     </classes>
   </test> 
-   
-  <test thread-count="9" name="Verify user able to create Travel and medical policy with Group - Annual Trip">
-    <classes>
-      <class name="TestCases.TC_ID3945"/>
-    </classes>
-  </test> 
-  
-
   
     <test thread-count="11" name="As a customer I want to see the GDPR statement">
     <classes>
@@ -199,9 +175,7 @@
     </classes>
   </test>
   
-   
-  
-  <test thread-count="18" name="A user can find an address from a postcode">
+   <test thread-count="18" name="A user can find an address from a postcode">
     <classes>
       <class name="TestCases.TC_ID1812"/>
     </classes>
@@ -220,12 +194,7 @@
     </classes>
   </test> 
   
- 
-  
-
-   
-  
-     <test thread-count="23" name="A user can enter a trip end date">
+  <test thread-count="23" name="A user can enter a trip end date">
     <classes>
       <class name="TestCases.TC_ID1819"/>
     </classes>
@@ -249,13 +218,7 @@
     </classes>
   </test> 
   
-  <test thread-count="27" name="A customer receives a Travel and Medical Certificate by email when purchasing">
-    <classes>
-      <class name="TestCases.TC_ID1836"/>
-    </classes>
-  </test>  
-  
-  <test thread-count="28" name="A customer can see Policy Documentation on the Quote Journey Document Portal">
+    <test thread-count="28" name="A customer can see Policy Documentation on the Quote Journey Document Portal">
     <classes>
       <class name="TestCases.TC_ID1849"/>
     </classes>
@@ -280,6 +243,53 @@
       <class name="TestCases.TC_ID1813"/>
     </classes>
   </test>  
+  
+  
+  
+  
+  
+  
+  
+  
+   <!--   <test thread-count="1" name="Verify user able to create Travel and medical policy with Group - Single Trip">
+    <classes>
+      <class name="TestCases.TC_ID3941"/>
+    </classes>
+  </test>   
+  
+  
+  
+   
+  
+ 
+   
+  <test thread-count="9" name="Verify user able to create Travel and medical policy with Group - Annual Trip">
+    <classes>
+      <class name="TestCases.TC_ID3945"/>
+    </classes>
+  </test> 
+  
+
+  
+  
+   
+  
+ 
+  
+ 
+  
+
+   
+  
+     
+  
+  <test thread-count="27" name="A customer receives a Travel and Medical Certificate by email when purchasing">
+    <classes>
+      <class name="TestCases.TC_ID1836"/>
+    </classes>
+  </test>  
+  
+
   
    
   

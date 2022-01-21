@@ -80,7 +80,7 @@ public class BaseClass {
 
 	@AfterTest
 	public void tearDown() {
-		// driver.quit();
+		 driver.quit();
 	}
 
 //	 Full_Page_Screenshot
